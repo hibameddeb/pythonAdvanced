@@ -64,5 +64,3 @@ json_str = '{"name": "Ali", "email": "ali@gmail.com", "account_id": 1234}'
 user = User.model_validate_json(json_str)
 print(user)
 
-x: int = 0
-y: str = "hello"
